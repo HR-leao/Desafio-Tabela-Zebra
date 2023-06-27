@@ -1,0 +1,38 @@
+body {
+  
+    background-image: url(../image/pexels-craig-adderley-1563356.jpg);
+    margin-left: calc(100% - 55%);
+}
+
+.transparent {
+    position: relative;
+    background-color: rgba(0, 0, 0, 1);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+table {
+    border: 1px solid aqua;
+    position: absolute;
+    border-collapse: collapse;
+
+}
+
+th {
+    background-color: #3498db;
+
+}
+
+tr:nth-child(even) {
+    background-color: #b7d9f5;
+}
+tr:nth-child(odd) {
+    background-color: #eaf4fc;
+}
+
+td {
+    border:1px solid #b7d9f5;
+    padding: 2px;
+}
